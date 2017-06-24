@@ -30,5 +30,5 @@ type FlaggedToken struct {
 
 type Suggest struct {
 	Suggestion string `json:"suggestion"`
-	Score      int    `json:"score"`
+	Score      float64    `json:"score"`
 }
